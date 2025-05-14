@@ -235,6 +235,7 @@ main img{
     height: 90%;  ALTURA DO OBJ 
 }*/
 
+
 div.imagem img {
     max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
     height: auto;    /* Mantém a proporção */
