@@ -236,12 +236,9 @@ div.video > iframe {
 }
 
 
-div.imagem{
-    width: 90%;
-    margin: auto;
-    
-    
-    
+div.imagem img {
+    max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
+    height: auto;    /* Mantém a proporção */
 }
 
 
