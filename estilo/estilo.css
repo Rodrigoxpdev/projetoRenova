@@ -169,7 +169,7 @@ main  h2{
 main p{
     margin: 15px 0px;
     text-align: justify;
-    text-indent: 30px;
+      /* ESPAÇO DA MARGIN E DA LETRA */
      line-height: 2em; /*ESPAÇAMENTO ENTRE LINHAS  */
      font-size: 1em;
 }
@@ -195,7 +195,7 @@ main a:hover{
 
 /* TEXTO EM NEGRITO  */
 main strong{
-    color: var(--cor3);
+    color: #0863ad;
     
     
 }
