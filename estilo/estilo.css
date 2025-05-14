@@ -220,21 +220,20 @@ main img{
 
 
 /* AJUSTES DO VIDEO  */
-div.video {
-    background-color: var(--cor5);  /* COR DO FUNDO DO VD */  
-    margin: 0px -20px 30px -20px;  /* T     D    B     E */
-    padding: 20px; /* T + D + B + E ,PREENCHIMENTO GERAL = VIDEO*/
-    position: relative;  /* POSIÇAO RELATIVA */
-    padding-bottom: 59%;  /* PREENCHIMENTO DE BAIXO DO VD */
-}
-div.video > iframe {
-    position: absolute; /*VAI TER CONTROLE TOTAL DENTRO DA DIV*/
-    top: 5%;  /* POSIÇAO PARA CIMA */
-    left: 5%; /* POSIÇAO PARA ESQUERDA */
-    width: 90%; /* LARGURA DO OBJ */
-    height: 90%; /* ALTURA DO OBJ */
-}
-
+/* div.video {
+    background-color: var(--cor5);   COR DO FUNDO DO VD   
+    margin: 0px -20px 30px -20px;   T     D    B     E 
+    padding: 20px;  T + D + B + E ,PREENCHIMENTO GERAL = VIDEO
+    position: relative;   POSIÇAO RELATIVA 
+    padding-bottom: 59%;  PREENCHIMENTO DE BAIXO DO VD 
+} */
+/*div.video > iframe {
+    position: absolute; VAI TER CONTROLE TOTAL DENTRO DA DIV
+    top: 5%; POSIÇAO PARA CIMA 
+    left: 5%;  POSIÇAO PARA ESQUERDA 
+    width: 90%;  LARGURA DO OBJ 
+    height: 90%;  ALTURA DO OBJ 
+}*/
 
 div.imagem img {
     max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
