@@ -241,7 +241,7 @@ div.imagem img {
     height: auto;    /* Mantém a proporção */
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     div.imagem img {
         max-width: 70%; /* Reduz a largura da imagem em telas maiores */
         height: auto;   /* Mantém a proporção da imagem */
