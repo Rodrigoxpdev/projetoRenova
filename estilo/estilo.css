@@ -46,7 +46,7 @@
 /* CORPO DA PAGINA */
 body{
     background-color: rgba(0, 0, 0, 0.5);
-    font-family: var(--font-padrao);
+    font-family: var(--font-padrao); 
 }
 
 
@@ -202,7 +202,9 @@ main strong{
 }
 
 main img{
-    width: 98%;
+    width: 100%;
+    height: auto;
+    
     
      
 }
@@ -234,7 +236,13 @@ div.video > iframe {
 }
 
 
-
+div.imagem{
+    width: 90%;
+    margin: auto;
+    
+    
+    
+}
 
 
 
