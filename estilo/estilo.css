@@ -269,7 +269,7 @@ div.video > iframe {
 
 /* COMPLEMENTO  */
 aside {
-     background-color: var(--cor1); /*COR DO CARD  */
+    background-color: var(--cor1); /*COR DO CARD  */
     padding: 10px; /* PREENCHIMENTO DO CARD */
     border-radius: 10px; /*BORDA AREDONDADA DO CARD  */
 }
