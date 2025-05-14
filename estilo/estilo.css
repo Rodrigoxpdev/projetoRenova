@@ -241,7 +241,14 @@ div.imagem img {
     height: auto;    /* Mantém a proporção */
 }
 
-
+@media (min-width: 1000px) {
+    div.imagem img {
+        max-width: 70%; /* Reduz a largura da imagem em telas maiores */
+        height: auto;   /* Mantém a proporção da imagem */
+        margin: 0 auto; /* Centraliza a imagem */
+        display: block; /* Garante que a imagem seja tratada como bloco */
+    }
+}
 
 
 /* LINKS EM CLASSE
