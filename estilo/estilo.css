@@ -26,6 +26,7 @@
     --cor3: #2fa866 ;
     --cor4: #1a5c37 ;
     --cor5: #063d1e;
+    --cor6: #0863ad;
 
     --font-padrao: arial, verdana, helvetica, sans-serif ;
     --font-destaque: 'Bebas Neue', 'cursive';
@@ -54,7 +55,7 @@ a.externo::after {
     content: '\00A0\1F517';
 }
 
-
+ 
 
 /* topo do site */
 header {
@@ -123,7 +124,7 @@ nav > a{
 }
 
 nav > a:hover{
-    background-color: var(--cor3);
+    background-color: var(--cor6);
     border-radius: 30px;
     text-decoration: underline;
         
@@ -169,7 +170,7 @@ main  h2{
 main p{
     margin: 15px 0px;
     text-align: justify;
-      /* ESPAÇO DA MARGIN E DA LETRA */
+    /*text-indent: 1em;   ESPAÇO DA MARGIN E DA LETRA */
      line-height: 2em; /*ESPAÇAMENTO ENTRE LINHAS  */
      font-size: 1em;
 }
@@ -180,13 +181,13 @@ main a {
     padding: 6px 2px;
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
+    color:  black ;
 
 }
 /* LINKS */
 main a:hover{
      text-decoration: underline;  /*Decoração em linha */
-    color: var(--cor4);
+    color: var(--cor6);
 }
 
 
@@ -304,19 +305,19 @@ aside > h3 {
 /* RODAPÉ DO SITE PARTE FINAL */
 footer {
     background-color: var(--cor5);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
 }
 footer a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor6);
 }
 
 
