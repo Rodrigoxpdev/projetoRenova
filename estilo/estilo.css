@@ -27,6 +27,7 @@
     --cor4: #1a5c37 ;
     --cor5: #063d1e;
     --cor6: #0863ad;
+    --cor7: #0a4b7c;
 
     --font-padrao: arial, verdana, helvetica, sans-serif ;
     --font-destaque: 'Bebas Neue', 'cursive';
@@ -275,8 +276,13 @@ div.icone2 {
     margin-left: 25px;
      
 }
-
-
+div.icone:hover {
+    background-color: var(--cor7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.523);
+    transition: all 0.3s  linear;
+    cursor: pointer;
+}
+  
 
 
 
@@ -347,7 +353,7 @@ aside > h3 {
 
 /* RODAPÉ DO SITE PARTE FINAL */
 footer {
-    background-color: var(--cor5);
+    background-color: var(--cor7);
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 0.8em;
@@ -360,7 +366,7 @@ footer a {
 }
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor6);
+    color: var(--cor);
 }
 
 
