@@ -177,7 +177,7 @@ main p{
 
 /* LINKS */
 main a {
-    background-color: var(--cor2);
+    /* background-color: var(--cor2); */
     padding: 6px 2px;
     text-decoration: none;
     font-weight: bold;
@@ -249,6 +249,24 @@ div.imagem img {
         display: block; /* Garante que a imagem seja tratada como bloco */
     }
 }
+
+div.whatsapp {  
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.376);
+    margin: auto;
+    max-width: 5%;
+    background-color: var(--cor1);
+    padding: 10px;
+    /* text-align: center; */
+    /* border: black 25px solid; */
+    border: 2px solid var(--cor3);
+}
+
+
+
+
+
+
 
 
 /* LINKS EM CLASSE
