@@ -251,14 +251,13 @@ div.imagem img {
 }
 
 div.whatsapp {  
-    border-radius: 10px;
+    border-radius: 20px;
     /* box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.376); */
     /* margin: auto; */
     max-width: 10%;
-    /* background-color: var(--cor1); */
+    background-color: rgba(255, 255, 255, 0.394);
     /* padding: 0px; */
     /* text-align: center; */
-    /* border: black 25px solid; */
     /* border: 2px solid var(--cor3); */
     display: flex;
     align-items: left;
