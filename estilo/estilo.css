@@ -252,18 +252,20 @@ div.imagem img {
 
 div.whatsapp {  
     border-radius: 20px;
-    /* box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.376); */
-    /* margin: auto; */
+    margin: auto;
     max-width: 10%;
     background-color: rgba(255, 255, 255, 0.394);
-    /* padding: 0px; */
-    /* text-align: center; */
-    /* border: 2px solid var(--cor3); */
+    padding-right: 30px;
+    padding-left: 30px;     
+    border: 2px solid var(--cor3);
     display: flex;
-    align-items: left;
-    
+    align-items: center; 
 }
 
+div.whatsapp2 {  
+    margin-left: 25px;
+     
+}
 
 
 
