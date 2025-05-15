@@ -236,11 +236,15 @@ main img{
 }*/
 
 
+
+
+/* AJUSTES DA IMAGEM DE PROMOÇAO  */
 div.imagem img {
     max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
     height: auto;    /* Mantém a proporção */
 }
 
+/* Ajustes para telas menores */
 @media (min-width: 1024px) {
     div.imagem img {
         max-width: 70%; /* Reduz a largura da imagem em telas maiores */
@@ -250,19 +254,24 @@ div.imagem img {
     }
 }
 
-div.whatsapp {  
+
+
+
+/* TAMANHO DO ICONE  */
+div.icone {
+    width: 100px;  
     border-radius: 20px;
     margin: auto;
     max-width: 10%;
-    background-color: rgba(255, 255, 255, 0.394);
+    /* background-color: rgba(255, 255, 255, 0.72); */
     padding-right: 30px;
     padding-left: 30px;     
-    border: 2px solid var(--cor3);
+    border: 2px solid #0863ad;
     display: flex;
     align-items: center; 
 }
-
-div.whatsapp2 {  
+/* TAMANHO DO ICONE  */
+div.icone2 {  
     margin-left: 25px;
      
 }
